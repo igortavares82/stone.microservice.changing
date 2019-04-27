@@ -4,4 +4,15 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Stone.Charging.Domain\Stone.Charging.Domain.csproj" />
+    <ProjectReference Include="..\Stone.Charging.Messages\Stone.Charging.Messages.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Stone.Framework.Result">
+      <HintPath>..\References\Stone.Framework.Result.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

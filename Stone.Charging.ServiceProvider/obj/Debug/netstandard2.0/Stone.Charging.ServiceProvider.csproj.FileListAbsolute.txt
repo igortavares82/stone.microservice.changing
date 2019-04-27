@@ -1,0 +1,9 @@
+C:\projects\stone\stone.microservice.charging\Stone.Charging.ServiceProvider\bin\Debug\netstandard2.0\Stone.Charging.ServiceProvider.deps.json
+C:\projects\stone\stone.microservice.charging\Stone.Charging.ServiceProvider\bin\Debug\netstandard2.0\Stone.Charging.ServiceProvider.dll
+C:\projects\stone\stone.microservice.charging\Stone.Charging.ServiceProvider\bin\Debug\netstandard2.0\Stone.Charging.ServiceProvider.pdb
+C:\projects\stone\stone.microservice.charging\Stone.Charging.ServiceProvider\obj\Debug\netstandard2.0\Stone.Charging.ServiceProvider.csprojAssemblyReference.cache
+C:\projects\stone\stone.microservice.charging\Stone.Charging.ServiceProvider\obj\Debug\netstandard2.0\Stone.Charging.ServiceProvider.csproj.CoreCompileInputs.cache
+C:\projects\stone\stone.microservice.charging\Stone.Charging.ServiceProvider\obj\Debug\netstandard2.0\Stone.Charging.ServiceProvider.AssemblyInfoInputs.cache
+C:\projects\stone\stone.microservice.charging\Stone.Charging.ServiceProvider\obj\Debug\netstandard2.0\Stone.Charging.ServiceProvider.AssemblyInfo.cs
+C:\projects\stone\stone.microservice.charging\Stone.Charging.ServiceProvider\obj\Debug\netstandard2.0\Stone.Charging.ServiceProvider.dll
+C:\projects\stone\stone.microservice.charging\Stone.Charging.ServiceProvider\obj\Debug\netstandard2.0\Stone.Charging.ServiceProvider.pdb

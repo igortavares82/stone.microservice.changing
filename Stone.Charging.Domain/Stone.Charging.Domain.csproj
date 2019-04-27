@@ -4,4 +4,20 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Abstractions\TaskService\" />
+    <Folder Include="Concretes\TaskService\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Stone.Charging.Infrastructure\Stone.Charging.Infrastructure.csproj" />
+    <ProjectReference Include="..\Stone.Charging.Models\Stone.Charging.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Stone.Framework.Result">
+      <HintPath>..\References\Stone.Framework.Result.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

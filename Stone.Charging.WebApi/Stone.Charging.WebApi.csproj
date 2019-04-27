@@ -9,7 +9,34 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="FirebaseDatabase.net" Version="4.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Stone.Charging.Application\Stone.Charging.Application.csproj" />
+    <ProjectReference Include="..\Stone.Charging.DependencyInjection\Stone.Charging.DependencyInjection.csproj" />
+    <ProjectReference Include="..\Stone.Charging.Messages\Stone.Charging.Messages.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Stone.Framework.Data">
+      <HintPath>..\References\Stone.Framework.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Stone.Framework.Filter">
+      <HintPath>..\References\Stone.Framework.Filter.dll</HintPath>
+    </Reference>
+    <Reference Include="Stone.Framework.Result">
+      <HintPath>..\References\Stone.Framework.Result.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

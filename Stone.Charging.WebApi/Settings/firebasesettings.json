@@ -1,0 +1,7 @@
+{
+  "FirebaseClientOptions": {
+    "Uri": "https://stone-charging.firebaseio.com",
+    "Child": "charges",
+    "AuthToken": "DxiwFkdxCTCHCIFcezjVlvVQ8dagJbWOfbZZ4tht"
+  }
+}

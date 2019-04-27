@@ -1,0 +1,15 @@
+C:\projects\stone\stone.microservice.charging\Stone.Charging.Infrastructure\bin\Debug\netstandard2.0\Stone.Charging.Infrastructure.deps.json
+C:\projects\stone\stone.microservice.charging\Stone.Charging.Infrastructure\bin\Debug\netstandard2.0\Stone.Charging.Infrastructure.dll
+C:\projects\stone\stone.microservice.charging\Stone.Charging.Infrastructure\bin\Debug\netstandard2.0\Stone.Charging.Infrastructure.pdb
+C:\projects\stone\stone.microservice.charging\Stone.Charging.Infrastructure\bin\Debug\netstandard2.0\Microsoft.Extensions.Options.dll
+C:\projects\stone\stone.microservice.charging\Stone.Charging.Infrastructure\bin\Debug\netstandard2.0\Stone.Charging.Models.dll
+C:\projects\stone\stone.microservice.charging\Stone.Charging.Infrastructure\bin\Debug\netstandard2.0\Stone.Framework.Data.dll
+C:\projects\stone\stone.microservice.charging\Stone.Charging.Infrastructure\bin\Debug\netstandard2.0\Stone.Charging.Models.pdb
+C:\projects\stone\stone.microservice.charging\Stone.Charging.Infrastructure\bin\Debug\netstandard2.0\Microsoft.Extensions.Options.xml
+C:\projects\stone\stone.microservice.charging\Stone.Charging.Infrastructure\obj\Debug\netstandard2.0\Stone.Charging.Infrastructure.csprojAssemblyReference.cache
+C:\projects\stone\stone.microservice.charging\Stone.Charging.Infrastructure\obj\Debug\netstandard2.0\Stone.Charging.Infrastructure.csproj.CoreCompileInputs.cache
+C:\projects\stone\stone.microservice.charging\Stone.Charging.Infrastructure\obj\Debug\netstandard2.0\Stone.Charging.Infrastructure.AssemblyInfoInputs.cache
+C:\projects\stone\stone.microservice.charging\Stone.Charging.Infrastructure\obj\Debug\netstandard2.0\Stone.Charging.Infrastructure.AssemblyInfo.cs
+C:\projects\stone\stone.microservice.charging\Stone.Charging.Infrastructure\obj\Debug\netstandard2.0\Stone.Charging.Infrastructure.csproj.CopyComplete
+C:\projects\stone\stone.microservice.charging\Stone.Charging.Infrastructure\obj\Debug\netstandard2.0\Stone.Charging.Infrastructure.dll
+C:\projects\stone\stone.microservice.charging\Stone.Charging.Infrastructure\obj\Debug\netstandard2.0\Stone.Charging.Infrastructure.pdb
