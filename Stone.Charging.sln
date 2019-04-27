@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Charging.WebApi", "Stone.Charging.WebApi\Stone.Charging.WebApi.csproj", "{6503C1CA-A048-43CA-8C77-AF9B1D4B7F4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Web", "1 - Web", "{74577A6B-94AB-4C3B-AE80-CA009B53B7E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{14436F3B-37ED-4673-A9E4-0772E3C3656B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{C0CD019A-29D8-46FA-A21B-B9ECD52F3E21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{8AEA45CD-7522-4A23-89B5-0716893C3BBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Test", "5 - Test", "{E4E42173-C956-4DAC-AA92-C7B012B38C70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Charging.Messages", "Stone.Charging.Messages\Stone.Charging.Messages.csproj", "{C9AA3F9F-9B3E-43F9-A741-4D9ECAFEBBDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Charging.Domain", "Stone.Charging.Domain\Stone.Charging.Domain.csproj", "{C0F40DC7-069B-4E14-B8E4-639324F11867}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Charging.Models", "Stone.Charging.Models\Stone.Charging.Models.csproj", "{15D1049C-E859-4869-9710-D60DCC037681}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stone.Charging.Application", "Stone.Charging.Application\Stone.Charging.Application.csproj", "{D5E561B0-55A3-4718-B89D-0D8892959938}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Charging.DependencyInjection", "Stone.Charging.DependencyInjection\Stone.Charging.DependencyInjection.csproj", "{9079AFE9-AE4A-4C69-9323-DF32AADA4569}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Charging.Infrastructure", "Stone.Charging.Infrastructure\Stone.Charging.Infrastructure.csproj", "{1FFA25AD-5322-464E-9B41-C65CE85494E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Charging.ServiceProvider", "Stone.Charging.ServiceProvider\Stone.Charging.ServiceProvider.csproj", "{63B8AA1C-F5DA-467F-814B-8010E1E45E7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6503C1CA-A048-43CA-8C77-AF9B1D4B7F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6503C1CA-A048-43CA-8C77-AF9B1D4B7F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6503C1CA-A048-43CA-8C77-AF9B1D4B7F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6503C1CA-A048-43CA-8C77-AF9B1D4B7F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9AA3F9F-9B3E-43F9-A741-4D9ECAFEBBDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9AA3F9F-9B3E-43F9-A741-4D9ECAFEBBDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9AA3F9F-9B3E-43F9-A741-4D9ECAFEBBDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9AA3F9F-9B3E-43F9-A741-4D9ECAFEBBDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0F40DC7-069B-4E14-B8E4-639324F11867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F40DC7-069B-4E14-B8E4-639324F11867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F40DC7-069B-4E14-B8E4-639324F11867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F40DC7-069B-4E14-B8E4-639324F11867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15D1049C-E859-4869-9710-D60DCC037681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D1049C-E859-4869-9710-D60DCC037681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15D1049C-E859-4869-9710-D60DCC037681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D1049C-E859-4869-9710-D60DCC037681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5E561B0-55A3-4718-B89D-0D8892959938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E561B0-55A3-4718-B89D-0D8892959938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E561B0-55A3-4718-B89D-0D8892959938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E561B0-55A3-4718-B89D-0D8892959938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9079AFE9-AE4A-4C69-9323-DF32AADA4569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9079AFE9-AE4A-4C69-9323-DF32AADA4569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9079AFE9-AE4A-4C69-9323-DF32AADA4569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9079AFE9-AE4A-4C69-9323-DF32AADA4569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FFA25AD-5322-464E-9B41-C65CE85494E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FFA25AD-5322-464E-9B41-C65CE85494E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FFA25AD-5322-464E-9B41-C65CE85494E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FFA25AD-5322-464E-9B41-C65CE85494E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63B8AA1C-F5DA-467F-814B-8010E1E45E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B8AA1C-F5DA-467F-814B-8010E1E45E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B8AA1C-F5DA-467F-814B-8010E1E45E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B8AA1C-F5DA-467F-814B-8010E1E45E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6503C1CA-A048-43CA-8C77-AF9B1D4B7F4B} = {74577A6B-94AB-4C3B-AE80-CA009B53B7E4}
+		{C9AA3F9F-9B3E-43F9-A741-4D9ECAFEBBDE} = {14436F3B-37ED-4673-A9E4-0772E3C3656B}
+		{C0F40DC7-069B-4E14-B8E4-639324F11867} = {C0CD019A-29D8-46FA-A21B-B9ECD52F3E21}
+		{15D1049C-E859-4869-9710-D60DCC037681} = {C0CD019A-29D8-46FA-A21B-B9ECD52F3E21}
+		{D5E561B0-55A3-4718-B89D-0D8892959938} = {14436F3B-37ED-4673-A9E4-0772E3C3656B}
+		{9079AFE9-AE4A-4C69-9323-DF32AADA4569} = {8AEA45CD-7522-4A23-89B5-0716893C3BBA}
+		{1FFA25AD-5322-464E-9B41-C65CE85494E6} = {8AEA45CD-7522-4A23-89B5-0716893C3BBA}
+		{63B8AA1C-F5DA-467F-814B-8010E1E45E7F} = {8AEA45CD-7522-4A23-89B5-0716893C3BBA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {575B58BA-0D3C-46DA-9FA8-458751FFF899}
+	EndGlobalSection
+EndGlobal
