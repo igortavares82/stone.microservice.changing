@@ -19,13 +19,13 @@ namespace Stone.Charging.WebApi.Controllers
         }
 
         [HttpGet, Produces("application/json", Type = typeof(IApplicationResult<List<ChargeMessage>>))]
-        public async Task<IActionResult> GetAsync(ChargeSearchMessage message)
+        public async Task<IActionResult> GetAsync([FromQuery] ChargeSearchMessage message)
         {
             return await ChargeApplication.GetAsync(message);
         }
 
         [HttpPost, Produces("application/json", Type = typeof(IApplicationResult<bool>))]
-        public async Task<IActionResult> RegisterAsync(ChargeMessage message)
+        public async Task<IActionResult> RegisterAsync([FromBody] ChargeMessage message)
         {
             return await ChargeApplication.RegisterAsync(message);
         }

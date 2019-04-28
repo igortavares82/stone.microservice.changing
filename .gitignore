@@ -34,3 +34,5 @@ Stone.Charging.Application/obj/project.assets.json
 Stone.Charging.Application/obj/Stone.Charging.Application.csproj.nuget.g.targets
 Stone.Charging.Application/obj/Stone.Charging.Application.csproj.nuget.g.props
 Stone.Charging.Application/obj/Debug/netstandard2.0/Stone.Charging.Application.AssemblyInfo.cs
+Stone.Charging.Models/obj/Debug/netstandard2.0/Stone.Charging.Models.csproj.FileListAbsolute.txt
+Stone.Charging.Messages/obj/Debug/netstandard2.0/Stone.Charging.Messages.csproj.FileListAbsolute.txt

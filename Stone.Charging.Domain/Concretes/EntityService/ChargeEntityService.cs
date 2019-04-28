@@ -24,12 +24,12 @@ namespace Stone.Charging.Domain.Concretes.EntityService
 
             if (string.IsNullOrEmpty(cpf) && !referenceMonth.HasValue)
             {
-                result.ResulType = DomainResultType.DomainError;
+                result.ResultType = DomainResultType.DomainError;
                 result.Messages.Add("At least one of those parameters must be settled");
             }
             else
             {
-                result.ResulType = DomainResultType.Success;
+                result.ResultType = DomainResultType.Success;
                 result.Data = await ChargeRepository.GetAsync(cpf, referenceMonth);
             }
 
@@ -43,7 +43,7 @@ namespace Stone.Charging.Domain.Concretes.EntityService
             await ChargeRepository.RegisterAsync(model);
 
             result.Data = true;
-            result.ResulType = DomainResultType.Success;
+            result.ResultType = DomainResultType.Success;
             result.Messages.Add("Charge has been registered successfully");
 
             return result;

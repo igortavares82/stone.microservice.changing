@@ -4,6 +4,8 @@ namespace Stone.Charging.Models.Entities
 {
     public class Charge
     {
+        public Charge() { }
+
         public Charge(string cpf, DateTime maturity, decimal value)
         {
             Cpf = cpf;

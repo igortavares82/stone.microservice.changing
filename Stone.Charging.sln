@@ -27,8 +27,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Charging.DependencyIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Charging.Infrastructure", "Stone.Charging.Infrastructure\Stone.Charging.Infrastructure.csproj", "{1FFA25AD-5322-464E-9B41-C65CE85494E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Charging.ServiceProvider", "Stone.Charging.ServiceProvider\Stone.Charging.ServiceProvider.csproj", "{63B8AA1C-F5DA-467F-814B-8010E1E45E7F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,10 +61,6 @@ Global
 		{1FFA25AD-5322-464E-9B41-C65CE85494E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FFA25AD-5322-464E-9B41-C65CE85494E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FFA25AD-5322-464E-9B41-C65CE85494E6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{63B8AA1C-F5DA-467F-814B-8010E1E45E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{63B8AA1C-F5DA-467F-814B-8010E1E45E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{63B8AA1C-F5DA-467F-814B-8010E1E45E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{63B8AA1C-F5DA-467F-814B-8010E1E45E7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,7 +73,6 @@ Global
 		{D5E561B0-55A3-4718-B89D-0D8892959938} = {14436F3B-37ED-4673-A9E4-0772E3C3656B}
 		{9079AFE9-AE4A-4C69-9323-DF32AADA4569} = {8AEA45CD-7522-4A23-89B5-0716893C3BBA}
 		{1FFA25AD-5322-464E-9B41-C65CE85494E6} = {8AEA45CD-7522-4A23-89B5-0716893C3BBA}
-		{63B8AA1C-F5DA-467F-814B-8010E1E45E7F} = {8AEA45CD-7522-4A23-89B5-0716893C3BBA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {575B58BA-0D3C-46DA-9FA8-458751FFF899}

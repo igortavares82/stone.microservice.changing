@@ -26,6 +26,34 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Stone.Charging.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Stone.Charging.Domain": "1.0.0",
+          "Stone.Charging.Messages": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Stone.Charging.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stone.Charging.Application.dll": {}
+        }
+      },
+      "Stone.Charging.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Stone.Charging.Infrastructure": "1.0.0",
+          "Stone.Charging.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Stone.Charging.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stone.Charging.Domain.dll": {}
+        }
+      },
       "Stone.Charging.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -37,6 +65,16 @@
         },
         "runtime": {
           "bin/placeholder/Stone.Charging.Infrastructure.dll": {}
+        }
+      },
+      "Stone.Charging.Messages/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Stone.Charging.Messages.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stone.Charging.Messages.dll": {}
         }
       },
       "Stone.Charging.Models/1.0.0": {
@@ -192,10 +230,25 @@
         "netstandard.library.nuspec"
       ]
     },
+    "Stone.Charging.Application/1.0.0": {
+      "type": "project",
+      "path": "../Stone.Charging.Application/Stone.Charging.Application.csproj",
+      "msbuildProject": "../Stone.Charging.Application/Stone.Charging.Application.csproj"
+    },
+    "Stone.Charging.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Stone.Charging.Domain/Stone.Charging.Domain.csproj",
+      "msbuildProject": "../Stone.Charging.Domain/Stone.Charging.Domain.csproj"
+    },
     "Stone.Charging.Infrastructure/1.0.0": {
       "type": "project",
       "path": "../Stone.Charging.Infrastructure/Stone.Charging.Infrastructure.csproj",
       "msbuildProject": "../Stone.Charging.Infrastructure/Stone.Charging.Infrastructure.csproj"
+    },
+    "Stone.Charging.Messages/1.0.0": {
+      "type": "project",
+      "path": "../Stone.Charging.Messages/Stone.Charging.Messages.csproj",
+      "msbuildProject": "../Stone.Charging.Messages/Stone.Charging.Messages.csproj"
     },
     "Stone.Charging.Models/1.0.0": {
       "type": "project",
@@ -206,6 +259,8 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
+      "Stone.Charging.Application >= 1.0.0",
+      "Stone.Charging.Domain >= 1.0.0",
       "Stone.Charging.Infrastructure >= 1.0.0"
     ]
   },
@@ -239,6 +294,12 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
+            "C:\\projects\\stone\\stone.microservice.charging\\Stone.Charging.Application\\Stone.Charging.Application.csproj": {
+              "projectPath": "C:\\projects\\stone\\stone.microservice.charging\\Stone.Charging.Application\\Stone.Charging.Application.csproj"
+            },
+            "C:\\projects\\stone\\stone.microservice.charging\\Stone.Charging.Domain\\Stone.Charging.Domain.csproj": {
+              "projectPath": "C:\\projects\\stone\\stone.microservice.charging\\Stone.Charging.Domain\\Stone.Charging.Domain.csproj"
+            },
             "C:\\projects\\stone\\stone.microservice.charging\\Stone.Charging.Infrastructure\\Stone.Charging.Infrastructure.csproj": {
               "projectPath": "C:\\projects\\stone\\stone.microservice.charging\\Stone.Charging.Infrastructure\\Stone.Charging.Infrastructure.csproj"
             }
