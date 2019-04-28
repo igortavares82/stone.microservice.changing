@@ -27,12 +27,6 @@ namespace Stone.Charging.WebApi.Controllers
             return await ChargeApplication.GetAsync(message);
         }
 
-        [HttpGet("batch"), Produces("application/json", Type = typeof(IApplicationResult<List<ChargeMessage>>))]
-        public async Task<IActionResult> GetAsync([FromQuery(Name = "cpfs")] string[] cpfs)
-        {
-            return await ChargeApplication.GetAsync(cpfs);
-        }
-
         [HttpPost, Produces("application/json", Type = typeof(IApplicationResult<bool>))]
         public async Task<IActionResult> RegisterAsync([FromBody] ChargeMessage message)
         {

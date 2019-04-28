@@ -19,12 +19,6 @@ namespace Stone.Charging.Infrastructure.Concretes
             return charges.ToList();
         }
 
-        public async Task<List<Charge>> GetAsync(string[] cpfs)
-        {
-            IEnumerable<Charge> charges = await base.GetAsync(it => cpfs.Contains(it.Cpf));
-            return charges.ToList();
-        }
-
         public async Task RegisterAsync(Charge model)
         {
             await base.InsertAsync(model);

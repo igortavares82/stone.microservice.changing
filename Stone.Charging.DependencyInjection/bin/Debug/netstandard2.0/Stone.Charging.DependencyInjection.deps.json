@@ -31,6 +31,7 @@
           "Stone.Charging.Domain": "1.0.0",
           "Stone.Charging.Messages": "1.0.0",
           "Stone.Framework.Result": "1.0.0.0",
+          "Stone.Framework.Extension": "1.0.0.0",
           "Microsoft.Extensions.Options": "2.1.1.0",
           "Stone.Framework.Validator": "1.0.0.0",
           "System.ComponentModel.Annotations": "4.2.0.0"
@@ -85,6 +86,14 @@
       "Stone.Framework.Result.Reference/1.0.0.0": {
         "runtime": {
           "Stone.Framework.Result.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Stone.Framework.Extension.Reference/1.0.0.0": {
+        "runtime": {
+          "Stone.Framework.Extension.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -172,6 +181,11 @@
       "sha512": ""
     },
     "Stone.Framework.Result.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Stone.Framework.Extension.Reference/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

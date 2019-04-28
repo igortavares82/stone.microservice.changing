@@ -8,7 +8,6 @@ namespace Stone.Charging.Application.Abstractions
     public interface IChargeApplication
     {
         Task<IApplicationResult<List<ChargeMessage>>> GetAsync(ChargeSearchMessage message);
-        Task<IApplicationResult<List<ChargeMessage>>> GetAsync(string[] cpfs);
         Task<IApplicationResult<bool>> RegisterAsync(ChargeMessage message);
     }
 }
