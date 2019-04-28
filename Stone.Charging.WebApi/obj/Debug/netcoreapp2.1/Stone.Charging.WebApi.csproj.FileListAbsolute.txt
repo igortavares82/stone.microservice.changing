@@ -29,3 +29,4 @@ C:\projects\stone\stone.microservice.charging\Stone.Charging.WebApi\obj\Debug\ne
 C:\projects\stone\stone.microservice.charging\Stone.Charging.WebApi\bin\Debug\netcoreapp2.1\Stone.Charging.DependencyInjection.dll
 C:\projects\stone\stone.microservice.charging\Stone.Charging.WebApi\bin\Debug\netcoreapp2.1\Stone.Framework.Filter.dll
 C:\projects\stone\stone.microservice.charging\Stone.Charging.WebApi\bin\Debug\netcoreapp2.1\Stone.Charging.DependencyInjection.pdb
+C:\projects\stone\stone.microservice.charging\Stone.Charging.WebApi\bin\Debug\netcoreapp2.1\Stone.Framework.Extension.dll

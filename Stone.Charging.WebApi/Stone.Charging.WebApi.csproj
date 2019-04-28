@@ -31,6 +31,9 @@
     <Reference Include="Stone.Framework.Data">
       <HintPath>..\References\Stone.Framework.Data.dll</HintPath>
     </Reference>
+    <Reference Include="Stone.Framework.Extension">
+      <HintPath>..\References\Stone.Framework.Extension.dll</HintPath>
+    </Reference>
     <Reference Include="Stone.Framework.Filter">
       <HintPath>..\References\Stone.Framework.Filter.dll</HintPath>
     </Reference>

@@ -12,6 +12,7 @@
           "NETStandard.Library": "2.0.3",
           "Stone.Charging.Domain": "1.0.0",
           "Stone.Charging.Messages": "1.0.0",
+          "Stone.Framework.Extension": "1.0.0.0",
           "Stone.Framework.Result": "1.0.0.0"
         },
         "runtime": {
@@ -55,6 +56,14 @@
       "Stone.Charging.Models/1.0.0": {
         "runtime": {
           "Stone.Charging.Models.dll": {}
+        }
+      },
+      "Stone.Framework.Extension/1.0.0.0": {
+        "runtime": {
+          "Stone.Framework.Extension.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Stone.Framework.Result/1.0.0.0": {
@@ -136,6 +145,11 @@
     },
     "Stone.Charging.Models/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Stone.Framework.Extension/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },

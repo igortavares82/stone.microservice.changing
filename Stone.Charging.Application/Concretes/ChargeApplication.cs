@@ -25,6 +25,12 @@ namespace Stone.Charging.Application.Concretes
             return ResultMapper.MapFromDomainResult(domainResult, (domain) => ChargeMapper.MapTo(domain));
         }
 
+        public async Task<IApplicationResult<List<ChargeMessage>>> GetAsync(string[] cpfs)
+        {
+            IDomainResult<List<Charge>> domainResult = await ChargeEntityService.GetAsync(cpfs);
+            return ResultMapper.MapFromDomainResult(domainResult, (domain) => ChargeMapper.MapTo(domain));
+        }
+
         public async Task<IApplicationResult<bool>> RegisterAsync(ChargeMessage message)
         {
             IDomainResult<bool> domainResult = await ChargeEntityService.RegisterAsync(ChargeMapper.MapTo(message));

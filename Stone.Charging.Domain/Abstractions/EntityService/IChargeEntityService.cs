@@ -8,6 +8,7 @@ namespace Stone.Charging.Domain.Abstractions.EntityService
     public interface IChargeEntityService
     {
         Task<IDomainResult<List<Charge>>> GetAsync(string cpf, short? referenceMonth);
+        Task<IDomainResult<List<Charge>>> GetAsync(string[] cpfs);
         Task<IDomainResult<bool>> RegisterAsync(Charge model);
     }
 }

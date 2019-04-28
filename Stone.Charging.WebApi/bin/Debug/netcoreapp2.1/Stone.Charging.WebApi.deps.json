@@ -39,6 +39,7 @@
           "Stone.Charging.DependencyInjection": "1.0.0",
           "Stone.Charging.Messages": "1.0.0",
           "Stone.Framework.Data": "1.0.0.0",
+          "Stone.Framework.Extension": "1.0.0.0",
           "Stone.Framework.Filter": "1.0.0.0",
           "Stone.Framework.Result": "1.0.0.0"
         },
@@ -652,6 +653,17 @@
         },
         "compile": {
           "Stone.Framework.Data.dll": {}
+        }
+      },
+      "Stone.Framework.Extension/1.0.0.0": {
+        "runtime": {
+          "Stone.Framework.Extension.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "Stone.Framework.Extension.dll": {}
         }
       },
       "Stone.Framework.Filter/1.0.0.0": {
@@ -3869,6 +3881,11 @@
       "sha512": ""
     },
     "Stone.Framework.Data/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Stone.Framework.Extension/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

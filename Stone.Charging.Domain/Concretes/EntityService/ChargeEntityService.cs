@@ -36,6 +36,16 @@ namespace Stone.Charging.Domain.Concretes.EntityService
             return result;
         }
 
+        public async Task<IDomainResult<List<Charge>>> GetAsync(string[] cpfs)
+        {
+            IDomainResult<List<Charge>> result = new DomainResult<List<Charge>>()
+            {
+                Data = await ChargeRepository.GetAsync(cpfs)
+            };
+
+            return result;
+        }
+
         public async Task<IDomainResult<bool>> RegisterAsync(Charge model)
         {
             IDomainResult<bool> result = new DomainResult<bool>();

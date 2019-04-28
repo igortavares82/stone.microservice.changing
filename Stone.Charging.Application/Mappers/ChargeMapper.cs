@@ -2,6 +2,7 @@
 using Stone.Charging.Models.Entities;
 using System.Collections.Generic;
 using System.Linq;
+using Stone.Framework.Extension;
 
 namespace Stone.Charging.Application.Mappers
 {
@@ -12,7 +13,7 @@ namespace Stone.Charging.Application.Mappers
             if (message == null)
                 return new Charge();
 
-            return new Charge(message.Cpf, message.Maturity.Value, message.Value.Value);
+            return new Charge(message.Cpf.RemoveCpfMask(), message.Maturity.Value, message.Value.Value);
         }
 
         public static ChargeMessage MapTo(Charge model)

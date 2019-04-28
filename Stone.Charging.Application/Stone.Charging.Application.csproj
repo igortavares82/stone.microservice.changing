@@ -10,6 +10,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="Stone.Framework.Extension">
+      <HintPath>..\References\Stone.Framework.Extension.dll</HintPath>
+    </Reference>
     <Reference Include="Stone.Framework.Result">
       <HintPath>..\References\Stone.Framework.Result.dll</HintPath>
     </Reference>

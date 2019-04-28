@@ -27,3 +27,4 @@ C:\projects\stone\stone.microservice.charging\Stone.Charging.DependencyInjection
 C:\projects\stone\stone.microservice.charging\Stone.Charging.DependencyInjection\obj\Debug\netstandard2.0\Stone.Charging.DependencyInjection.csproj.CopyComplete
 C:\projects\stone\stone.microservice.charging\Stone.Charging.DependencyInjection\obj\Debug\netstandard2.0\Stone.Charging.DependencyInjection.dll
 C:\projects\stone\stone.microservice.charging\Stone.Charging.DependencyInjection\obj\Debug\netstandard2.0\Stone.Charging.DependencyInjection.pdb
+C:\projects\stone\stone.microservice.charging\Stone.Charging.DependencyInjection\bin\Debug\netstandard2.0\Stone.Framework.Extension.dll
