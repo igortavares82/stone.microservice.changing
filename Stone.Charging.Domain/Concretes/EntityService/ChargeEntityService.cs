@@ -38,12 +38,21 @@ namespace Stone.Charging.Domain.Concretes.EntityService
 
         public async Task<IDomainResult<bool>> RegisterAsync(Charge model)
         {
-            IDomainResult<bool> result = new DomainResult<bool>();
+            IDomainResult<bool> result = new DomainResult<bool>() { Data = true };
 
             await ChargeRepository.RegisterAsync(model);
+            result.Messages.Add("Charge has been registered successfully");
 
-            result.Data = true;
-            result.ResultType = DomainResultType.Success;
+            return result;
+        }
+
+        public async Task<IDomainResult<bool>> RegisterAsync(List<Charge> models)
+        {
+            IDomainResult<bool> result = new DomainResult<bool>() { Data = true};
+
+            ParallelOptions option = new ParallelOptions() { MaxDegreeOfParallelism = 4 };
+            Parallel.ForEach(models, async (model) => await ChargeRepository.RegisterAsync(model));
+
             result.Messages.Add("Charge has been registered successfully");
 
             return result;

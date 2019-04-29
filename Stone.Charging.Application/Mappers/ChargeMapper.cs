@@ -16,6 +16,14 @@ namespace Stone.Charging.Application.Mappers
             return new Charge(message.Cpf.RemoveCpfMask(), message.Maturity.Value, message.Value.Value);
         }
 
+        public static List<Charge> MapTo(List<ChargeMessage> messages)
+        {
+            if (messages == null)
+                return new List<Charge>();
+
+            return messages.Select(MapTo).ToList();
+        }
+
         public static ChargeMessage MapTo(Charge model)
         {
             if (model == null)

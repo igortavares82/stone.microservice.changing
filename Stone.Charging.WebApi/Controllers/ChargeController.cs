@@ -32,5 +32,11 @@ namespace Stone.Charging.WebApi.Controllers
         {
             return await ChargeApplication.RegisterAsync(message);
         }
+
+        [HttpPost("batch"), Produces("application/json", Type = typeof(IApplicationResult<bool>))]
+        public async Task<IActionResult> RegisterAsync([FromBody] List<ChargeMessage> messages)
+        {
+            return await ChargeApplication.RegisterAsync(messages);
+        }
     }
 }

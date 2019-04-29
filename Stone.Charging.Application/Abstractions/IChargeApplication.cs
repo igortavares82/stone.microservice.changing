@@ -9,5 +9,6 @@ namespace Stone.Charging.Application.Abstractions
     {
         Task<IApplicationResult<List<ChargeMessage>>> GetAsync(ChargeSearchMessage message);
         Task<IApplicationResult<bool>> RegisterAsync(ChargeMessage message);
+        Task<IApplicationResult<bool>> RegisterAsync(List<ChargeMessage> messages);
     }
 }
