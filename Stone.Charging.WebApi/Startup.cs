@@ -40,9 +40,9 @@ namespace Stone.Charging.WebApi
             {
                 s.SwaggerDoc("v1", new Info { Title = "Charging microservice API", Version = "v1" });
 
-                string caminhoAplicacao = PlatformServices.Default.Application.ApplicationBasePath;
-                string nomeAplicacao = PlatformServices.Default.Application.ApplicationName;
-                string caminhoXmlDoc = Path.Combine(caminhoAplicacao, $"{nomeAplicacao}.xml");
+                string applicationPath = PlatformServices.Default.Application.ApplicationBasePath;
+                string applicationName = PlatformServices.Default.Application.ApplicationName;
+                string xmlDocPath = Path.Combine(applicationPath, $"{applicationName}.xml");
             });
         }
 
