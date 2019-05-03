@@ -36,3 +36,17 @@ Stone.Charging.Application/obj/Stone.Charging.Application.csproj.nuget.g.props
 Stone.Charging.Application/obj/Debug/netstandard2.0/Stone.Charging.Application.AssemblyInfo.cs
 Stone.Charging.Models/obj/Debug/netstandard2.0/Stone.Charging.Models.csproj.FileListAbsolute.txt
 Stone.Charging.Messages/obj/Debug/netstandard2.0/Stone.Charging.Messages.csproj.FileListAbsolute.txt
+.vs/Stone.Charging/DesignTimeBuild/.dtbcache
+Stone.Charging.UnitTest/obj/project.assets.json
+Stone.Charging.UnitTest/obj/Stone.Charging.UnitTest.csproj.nuget.g.targets
+Stone.Charging.UnitTest/obj/Stone.Charging.UnitTest.csproj.nuget.g.props
+Stone.Charging.UnitTest/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+Stone.Charging.UnitTest/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+Stone.Charging.UnitTest/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+Stone.Charging.UnitTest/obj/Debug/netcoreapp2.1/Stone.Charging.UnitTest.csproj.FileListAbsolute.txt
+Stone.Charging.UnitTest/obj/Debug/netcoreapp2.1/Stone.Charging.UnitTest.csproj.CopyComplete
+Stone.Charging.UnitTest/obj/Debug/netcoreapp2.1/Stone.Charging.UnitTest.Program.cs
+Stone.Charging.UnitTest/obj/Debug/netcoreapp2.1/Stone.Charging.UnitTest.AssemblyInfo.cs
+Stone.Charging.UnitTest/bin/Debug/netcoreapp2.1/Stone.Charging.UnitTest.runtimeconfig.json
+Stone.Charging.UnitTest/bin/Debug/netcoreapp2.1/Stone.Charging.UnitTest.runtimeconfig.dev.json
+Stone.Charging.UnitTest/bin/Debug/netcoreapp2.1/Stone.Charging.UnitTest.deps.json

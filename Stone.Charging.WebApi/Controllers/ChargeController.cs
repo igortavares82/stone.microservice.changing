@@ -22,19 +22,19 @@ namespace Stone.Charging.WebApi.Controllers
         public string GetWellcome() => "Wellcome to charging service!";
 
         [HttpGet, Produces("application/json", Type = typeof(IApplicationResult<List<ChargeMessage>>))]
-        public async Task<IActionResult> GetAsync([FromQuery] ChargeSearchMessage message)
+        public virtual async Task<IActionResult> GetAsync([FromQuery] ChargeSearchMessage message)
         {
             return await ChargeApplication.GetAsync(message);
         }
 
         [HttpPost, Produces("application/json", Type = typeof(IApplicationResult<bool>))]
-        public async Task<IActionResult> RegisterAsync([FromBody] ChargeMessage message)
+        public virtual async Task<IActionResult> PostAsync([FromBody] ChargeMessage message)
         {
             return await ChargeApplication.RegisterAsync(message);
         }
 
         [HttpPost("batch"), Produces("application/json", Type = typeof(IApplicationResult<bool>))]
-        public async Task<IActionResult> RegisterAsync([FromBody] List<ChargeMessage> messages)
+        public virtual async Task<IActionResult> PostAsync([FromBody] List<ChargeMessage> messages)
         {
             return await ChargeApplication.RegisterAsync(messages);
         }
