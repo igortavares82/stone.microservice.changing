@@ -7,6 +7,8 @@ using Stone.Charging.DependencyInjection;
 using Stone.Framework.Filter.Concretes;
 using System.IO;
 using Stone.Charging.WebApi.Configurations;
+using Swashbuckle.AspNetCore.Swagger;
+using Microsoft.Extensions.PlatformAbstractions;
 
 namespace Stone.Charging.WebApi
 {
@@ -33,6 +35,15 @@ namespace Stone.Charging.WebApi
             services.AddMvc(options => options.Filters.Add(new ValidateModelStateAttribute()));
 
             DIFactory.Configure(services);
+
+            services.AddSwaggerGen(s => 
+            {
+                s.SwaggerDoc("v1", new Info { Title = "Charging service API", Version = "v1" });
+
+                string caminhoAplicacao = PlatformServices.Default.Application.ApplicationBasePath;
+                string nomeAplicacao = PlatformServices.Default.Application.ApplicationName;
+                string caminhoXmlDoc = Path.Combine(caminhoAplicacao, $"{nomeAplicacao}.xml");
+            });
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -48,6 +59,13 @@ namespace Stone.Charging.WebApi
 
             app.UseHttpsRedirection();
             app.UseMvc();
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Charge application");
+            });
+
         }
     }
 }
