@@ -38,7 +38,7 @@ namespace Stone.Charging.WebApi
 
             services.AddSwaggerGen(s => 
             {
-                s.SwaggerDoc("v1", new Info { Title = "Charging service API", Version = "v1" });
+                s.SwaggerDoc("v1", new Info { Title = "Charging microservice API", Version = "v1" });
 
                 string caminhoAplicacao = PlatformServices.Default.Application.ApplicationBasePath;
                 string nomeAplicacao = PlatformServices.Default.Application.ApplicationName;
