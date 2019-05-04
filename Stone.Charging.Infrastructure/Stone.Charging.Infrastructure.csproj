@@ -13,7 +13,7 @@
       <HintPath>..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.options\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Options.dll</HintPath>
     </Reference>
     <Reference Include="Stone.Framework.Data">
-      <HintPath>..\..\stone.microservice.clients\References\Stone.Framework.Data.dll</HintPath>
+      <HintPath>..\References\Stone.Framework.Data.dll</HintPath>
     </Reference>
   </ItemGroup>
 
