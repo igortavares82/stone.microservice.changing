@@ -51,3 +51,15 @@ Stone.Charging.UnitTest/bin/Debug/netcoreapp2.1/Stone.Charging.UnitTest.runtimec
 Stone.Charging.UnitTest/bin/Debug/netcoreapp2.1/Stone.Charging.UnitTest.runtimeconfig.dev.json
 Stone.Charging.UnitTest/bin/Debug/netcoreapp2.1/Stone.Charging.UnitTest.deps.json
 Stone.Charging.UnitTest/bin/Debug/netcoreapp2.1/Stone.Charging.WebApi.xml
+Stone.Charging.WebApi/bin/Debug/netcoreapp2.1/Stone.Charging.WebApi.deps.json
+Stone.Charging.Messages/bin/Debug/netstandard2.0/Stone.Charging.Messages.deps.json
+Stone.Charging.Infrastructure/obj/Debug/netstandard2.0/Stone.Charging.Infrastructure.csproj.FileListAbsolute.txt
+Stone.Charging.Infrastructure/bin/Debug/netstandard2.0/Stone.Charging.Infrastructure.deps.json
+Stone.Charging.DependencyInjection/obj/project.assets.json
+Stone.Charging.DependencyInjection/obj/Stone.Charging.DependencyInjection.csproj.nuget.g.props
+Stone.Charging.DependencyInjection/obj/Debug/netstandard2.0/Stone.Charging.DependencyInjection.csproj.FileListAbsolute.txt
+Stone.Charging.DependencyInjection/bin/Debug/netstandard2.0/Stone.Charging.DependencyInjection.deps.json
+Stone.Charging.Application/obj/Debug/netstandard2.0/Stone.Charging.Application.csproj.FileListAbsolute.txt
+Stone.Charging.Application/bin/Debug/netstandard2.0/Stone.Charging.Application.deps.json
+Stone.Charging.Domain/obj/Debug/netstandard2.0/Stone.Charging.Domain.csproj.FileListAbsolute.txt
+Stone.Charging.Domain/bin/Debug/netstandard2.0/Stone.Charging.Domain.deps.json
