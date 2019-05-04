@@ -28,7 +28,7 @@ namespace Stone.Charging.UnitTest
 
         [Theory]
         [MemberData(nameof(ChargeDataProvider.GetSearchByReferenceMonth), MemberType = typeof(ChargeDataProvider))]
-        public void RegisterCharge_SearchByReferenceMonth_ReturnsTrue(List<Charge> charges, string cpf, short? referenceMonth)
+        public void GetCharge_SearchByReferenceMonth_ReturnsTrue(List<Charge> charges, string cpf, short? referenceMonth)
         {
             // Arrange
             IChargeEntityService service = ChargeEntityServiceHelper.GetMock();
@@ -43,7 +43,7 @@ namespace Stone.Charging.UnitTest
 
         [Theory]
         [MemberData(nameof(ChargeDataProvider.GetSearchByCpf), MemberType = typeof(ChargeDataProvider))]
-        public void RegisterCharge_SearchByCpf_ReturnsTrue(List<Charge> charges, string cpf, short? referenceMonth)
+        public void GetCharge_SearchByCpf_ReturnsTrue(List<Charge> charges, string cpf, short? referenceMonth)
         {
             // Arrange
             IChargeEntityService service = ChargeEntityServiceHelper.GetMock();
@@ -58,7 +58,7 @@ namespace Stone.Charging.UnitTest
 
         [Theory]
         [MemberData(nameof(ChargeDataProvider.GetInvalidSearch), MemberType = typeof(ChargeDataProvider))]
-        public void RegisterCharge_InvalidSearch_ReturnsTrue(List<Charge> charges, string cpf, short? referenceMonth)
+        public void GetCharge_InvalidSearch_ReturnsTrue(List<Charge> charges, string cpf, short? referenceMonth)
         {
             // Arrange
             IChargeEntityService service = ChargeEntityServiceHelper.GetMock();
