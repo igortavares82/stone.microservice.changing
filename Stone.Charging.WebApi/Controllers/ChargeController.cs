@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace Stone.Charging.WebApi.Controllers
 {
-    [ApiController]
     [Route("api/charge")]
-    public class ChargeController : ControllerBase
+    public class ChargeController : Controller
     {
         private IChargeApplication ChargeApplication { get; }
 

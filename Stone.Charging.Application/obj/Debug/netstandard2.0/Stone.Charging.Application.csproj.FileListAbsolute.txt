@@ -5,6 +5,7 @@ C:\projects\stone\stone.microservice.charging\Stone.Charging.Application\bin\Deb
 C:\projects\stone\stone.microservice.charging\Stone.Charging.Application\bin\Debug\netstandard2.0\Stone.Charging.Infrastructure.dll
 C:\projects\stone\stone.microservice.charging\Stone.Charging.Application\bin\Debug\netstandard2.0\Stone.Charging.Messages.dll
 C:\projects\stone\stone.microservice.charging\Stone.Charging.Application\bin\Debug\netstandard2.0\Stone.Charging.Models.dll
+C:\projects\stone\stone.microservice.charging\Stone.Charging.Application\bin\Debug\netstandard2.0\Stone.Framework.Extension.dll
 C:\projects\stone\stone.microservice.charging\Stone.Charging.Application\bin\Debug\netstandard2.0\Stone.Framework.Result.dll
 C:\projects\stone\stone.microservice.charging\Stone.Charging.Application\bin\Debug\netstandard2.0\Stone.Framework.Validator.dll
 C:\projects\stone\stone.microservice.charging\Stone.Charging.Application\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.dll
@@ -23,4 +24,3 @@ C:\projects\stone\stone.microservice.charging\Stone.Charging.Application\obj\Deb
 C:\projects\stone\stone.microservice.charging\Stone.Charging.Application\obj\Debug\netstandard2.0\Stone.Charging.Application.csproj.CopyComplete
 C:\projects\stone\stone.microservice.charging\Stone.Charging.Application\obj\Debug\netstandard2.0\Stone.Charging.Application.dll
 C:\projects\stone\stone.microservice.charging\Stone.Charging.Application\obj\Debug\netstandard2.0\Stone.Charging.Application.pdb
-C:\projects\stone\stone.microservice.charging\Stone.Charging.Application\bin\Debug\netstandard2.0\Stone.Framework.Extension.dll

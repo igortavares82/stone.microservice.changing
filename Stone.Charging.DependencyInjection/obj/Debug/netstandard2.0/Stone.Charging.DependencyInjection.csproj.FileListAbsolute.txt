@@ -9,6 +9,7 @@ C:\projects\stone\stone.microservice.charging\Stone.Charging.DependencyInjection
 C:\projects\stone\stone.microservice.charging\Stone.Charging.DependencyInjection\bin\Debug\netstandard2.0\Stone.Charging.Models.dll
 C:\projects\stone\stone.microservice.charging\Stone.Charging.DependencyInjection\bin\Debug\netstandard2.0\Stone.Framework.Data.dll
 C:\projects\stone\stone.microservice.charging\Stone.Charging.DependencyInjection\bin\Debug\netstandard2.0\Stone.Framework.Result.dll
+C:\projects\stone\stone.microservice.charging\Stone.Charging.DependencyInjection\bin\Debug\netstandard2.0\Stone.Framework.Extension.dll
 C:\projects\stone\stone.microservice.charging\Stone.Charging.DependencyInjection\bin\Debug\netstandard2.0\Microsoft.Extensions.Options.dll
 C:\projects\stone\stone.microservice.charging\Stone.Charging.DependencyInjection\bin\Debug\netstandard2.0\Stone.Framework.Validator.dll
 C:\projects\stone\stone.microservice.charging\Stone.Charging.DependencyInjection\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.dll
@@ -27,4 +28,3 @@ C:\projects\stone\stone.microservice.charging\Stone.Charging.DependencyInjection
 C:\projects\stone\stone.microservice.charging\Stone.Charging.DependencyInjection\obj\Debug\netstandard2.0\Stone.Charging.DependencyInjection.csproj.CopyComplete
 C:\projects\stone\stone.microservice.charging\Stone.Charging.DependencyInjection\obj\Debug\netstandard2.0\Stone.Charging.DependencyInjection.dll
 C:\projects\stone\stone.microservice.charging\Stone.Charging.DependencyInjection\obj\Debug\netstandard2.0\Stone.Charging.DependencyInjection.pdb
-C:\projects\stone\stone.microservice.charging\Stone.Charging.DependencyInjection\bin\Debug\netstandard2.0\Stone.Framework.Extension.dll
